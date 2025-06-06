@@ -145,7 +145,7 @@ SRC_ULR1 = \
 SRC_ULR = $(SRC_ULR0) $(SRC_ULR1)
 
 SRC_DFTU0 = \
- gendmatmt.f90 genveedu.f90 tm2todm.f90 tm3todm.f90 dmtotm3.f90
+ gendmatmt.f90 genveedu.f90 tm2todm.f90 tm3todm.f90 dmtotm3.f90 trdmatdu.f90
 
 SRC_DFTU1 = \
  writedftu.f90 sbesseli.f90 shankeli.f90 genfdu.f90 genfdufr.f90 engyfdu.f90 \

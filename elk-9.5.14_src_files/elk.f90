@@ -148,7 +148,7 @@ do itask=1,ntasks
     call vecplot
   case(91,92,93)
     call dbxcplot
-  case(100,101)
+  case(100,101,103)
     call fermisurf
   case(102)
     call fermisurfbxsf
