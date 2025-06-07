@@ -129,7 +129,7 @@ else
   boxl(2,2)=boxl(2,2)+1.d0
   boxl(3,3)=boxl(3,3)+1.d0
 ! k-point set and box for Fermi surface plots
-  if (any(task == [100,101,102])) then
+  if (any(task == [100,101,102,103])) then
     ngridk(:)=np3d(:)
     if (task /= 102) boxl(:,:)=vclp3d(:,:)
   end if
